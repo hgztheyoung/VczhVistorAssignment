@@ -2,7 +2,7 @@
  * Created by hgz on 2016/2/10.
  */
 public interface ScrewVistorI<T> {
-    T forFuck(Person p) throws Exception;
-    T forShit() throws Exception;
-    T forPiss(Bitch b) throws Exception;
+    T forFuck(Fuck fuck) throws Exception;
+    T forShit(Shit s) throws Exception;
+    T forPiss(Piss piss) throws Exception;
 }

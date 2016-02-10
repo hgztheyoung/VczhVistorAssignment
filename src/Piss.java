@@ -10,6 +10,6 @@ public class Piss extends Screw {
 
     @Override
     public Object accept(ScrewVistorI ask) throws Exception {
-        return ask.forPiss(b);
+        return ask.forPiss(this);
     }
 }

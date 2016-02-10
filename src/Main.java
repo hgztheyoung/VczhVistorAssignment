@@ -4,12 +4,19 @@
 public class Main {
     public static void main(String args[]) throws Exception {
         System.out.println(
-                new Fuck(new Person()).
-                        accept(new nameOfV()));
+                ResFunctions.getName(new Fuck(new Person()))
+        );
         System.out.println(
-                new Fuck(new Person()).
-                        accept(new GetFatherOfFuckeeV()));
+                ResFunctions.getFatherOfFuckee(new Fuck(new Person()))
+        );
+
         System.out.println(
-                new Shit().accept(new AreEuqalV(new Piss(new Bitch()))));
+                ResFunctions.areEqual(new Fuck(new Person()),
+                        new Shit())
+        );
+        System.out.println(
+                ResFunctions.areEqual(new Shit(),
+                        new Shit())
+        );
     }
 }

@@ -3,17 +3,17 @@
  */
 public class nameOfV implements ScrewVistorI<String> {
     @Override
-    public String forFuck(Person p) {
+    public String forFuck(Fuck fuck) {
         return "Fuck";
     }
 
     @Override
-    public String forShit() {
+    public String forShit(Shit s) {
         return "Shit";
     }
 
     @Override
-    public String forPiss(Bitch b) {
+    public String forPiss(Piss piss) {
         return "Piss";
     }
 }
