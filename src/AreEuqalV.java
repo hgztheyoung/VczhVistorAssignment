@@ -2,24 +2,24 @@
  * Created by hgz on 2016/2/10.
  */
 public class AreEuqalV implements ScrewVistorI<Boolean> {
-    public ScrewD another;
+    public Screw another;
 
-    public AreEuqalV(ScrewD another) {
+    public AreEuqalV(Screw another) {
         this.another = another;
     }
 
     @Override
-    public Boolean forFuck(PersonD p) throws Exception {
-        return another instanceof FuckD;
+    public Boolean forFuck(Person p) throws Exception {
+        return another instanceof Fuck;
     }
 
     @Override
     public Boolean forShit() throws Exception {
-        return another instanceof ShitD;
+        return another instanceof Shit;
     }
 
     @Override
-    public Boolean forPiss(BitchD b) throws Exception {
-        return another instanceof PissD;
+    public Boolean forPiss(Bitch b) throws Exception {
+        return another instanceof Piss;
     }
 }

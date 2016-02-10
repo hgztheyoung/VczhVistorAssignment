@@ -1,15 +1,15 @@
 /**
  * Created by hgz on 2016/2/10.
  */
-public class FuckD extends ScrewD {
-    PersonD p;
+public class Piss extends Screw {
+    public Bitch b;
 
-    public FuckD(PersonD p) {
-        this.p = p;
+    public Piss(Bitch b) {
+        this.b = b;
     }
 
     @Override
     public Object accept(ScrewVistorI ask) throws Exception {
-        return ask.forFuck(p);
+        return ask.forPiss(b);
     }
 }

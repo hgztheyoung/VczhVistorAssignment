@@ -4,12 +4,12 @@
 public class Main {
     public static void main(String args[]) throws Exception {
         System.out.println(
-                new FuckD(new PersonD()).
+                new Fuck(new Person()).
                         accept(new nameOfV()));
         System.out.println(
-                new FuckD(new PersonD()).
+                new Fuck(new Person()).
                         accept(new GetFatherOfFuckeeV()));
         System.out.println(
-                new ShitD().accept(new AreEuqalV(new PissD(new BitchD()))));
+                new Shit().accept(new AreEuqalV(new Piss(new Bitch()))));
     }
 }

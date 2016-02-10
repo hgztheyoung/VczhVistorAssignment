@@ -3,7 +3,7 @@
  */
 public class nameOfV implements ScrewVistorI<String> {
     @Override
-    public String forFuck(PersonD p) {
+    public String forFuck(Person p) {
         return "Fuck";
     }
 
@@ -13,7 +13,7 @@ public class nameOfV implements ScrewVistorI<String> {
     }
 
     @Override
-    public String forPiss(BitchD b) {
+    public String forPiss(Bitch b) {
         return "Piss";
     }
 }
